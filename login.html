@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Coding Conf 2026 | Register</title>
-    <link rel="icon" href="../ASSETS/logo-full (1).svg">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="icon" type="image/png" href="../ASSETS/favicon-32x32 (1).png">
+    <link rel="icon" type="image/png" href="ASSETS/favicon-32x32%20(1).png">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <header class="site-header">
        <a class="visually-hidden" href="#main">Skip to main content</a>
 
-       <nav aria-label="site-header">
-            <a class="logo" href="../index.html">
-                <img src="../ASSETS/logo-full (1).svg" alt="Coding Conf Logo">
+       <nav aria-label="Main navigation">
+            <a class="logo" href="Index.html">
+                <img src="ASSETS/logo-full%20(1).svg" alt="Coding Conf Logo">
             </a>
         </nav>
     </header>
@@ -23,19 +22,16 @@
         <h2>Your Journey to Coding Conf 2026 Starts Here!</h2>
          <p class="metadata-description">Secure your spot at next year's coding conference!
          </p>
-         <!-- novalidate: the validation is done in js/validation.js-->
         <form action="ticket.html" method="get" id="reg-form" class="reg-form" novalidate>
         <div class="field">
             <span class="label" id="avatar-label">Upload Avatar</span>
             <div class="dropzone" id="dropzone" tabindex="0">
-            <!-- Empty state: the label opens the hidden file input -->
             <div id="drop-empty" class="dropzone-empty">
                 <label for="avatar">
-                    <img class="icon-box" src="../ASSETS/icon-upload (1).svg" alt="Upload Icon">
+                    <img class="icon-box" src="ASSETS/icon-upload%20(1).svg" alt="Upload Icon">
                     <span>Drag and drop or click to upload</span>
                 </label>
           </div>
-          <!-- Previews the the avatar -->
           <div id="drop-preview" hidden>
             <img id="preview-img" class="preview" src="" alt="Preview of your uploaded avatar">
             <div class="dropzone-actions">
@@ -62,7 +58,7 @@
             </div>
 
             <div class="form">
-                <label for="github">Github Username</label>
+                <label for="github">GitHub Username</label>
                 <input type="text" id="github" name="github" placeholder="@githubusername" autocomplete="off" aria-describedby="github-hint">
                 <p class="hint error" id="github-hint" role="alert" hidden></p>
             </div>
@@ -76,6 +72,6 @@
     <p>&copy; 2026 Coding Conf. CIT2011 Web Programming IA#2.</p>
 </footer>
 
-    <script src="../JS/validation.js"></script>
+    <script src="JS/validation.js"></script>
 </body>
 </html>
