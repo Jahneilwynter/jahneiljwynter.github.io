@@ -1,5 +1,5 @@
 const STORAGE_KEY = "codingConfTicket";
-/** Read and parse the saved ticket; returns nothing if missing or broken. */
+
 function loadTicket() {
   try {
     const data = JSON.parse(localStorage.getItem(STORAGE_KEY));
@@ -13,7 +13,6 @@ function loadTicket() {
 const ticket = loadTicket();
 
 if (!ticket) {
-  // no data means the form was never completed
   window.location.replace("Index.html");
 } else {
   document.getElementById("out-name").textContent = ticket.name;
